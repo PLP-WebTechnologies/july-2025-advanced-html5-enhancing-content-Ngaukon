@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <h1>List</h1>
+    <ol>
+        <li>Mango</li>
+        <li>Banana</li>
+        <li>Pineapple</li>
+    </ol>
+    <ul>
+        <li>Bread</li>
+        <li>Cake</li>
+        <li>Milk</li>
+    </ul>
+    <hr>
+
+    <h2>Table</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Fruits</th>
+                <th>Vegetables</th>
+                <th>Refreshments</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mango</td>
+                <td>cabbage</td>
+                <td>coke</td>
+            </tr>
+            <tr>
+                <td>Banana</td>
+                <td>Carrot</td>
+                <td>Milk</td>
+            </tr>
+            <tr>
+                <td>Orange</td>
+                <td>Spinach</td>
+                <td>Juice Cola</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+
+    <h3>Adding Audio</h3>
+    <audio controls>
+        <source src="0125. Survived - AShamaluevMusic.mp3" type="audio/mp3">
+    </audio>
+
+    <h3>Adding Video</h3>
+    <video controls width="400px" height="250px">
+        <source src="video.mp4" type="video/mp4">
+    </video>
+
+    <h4>Creating a form</h4>
+    <fieldset>
+        <legend>User Information</legend>
+        <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" autocomplete="on" required>
+        </div>
+
+        <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" autocomplete="on" required>
+        </div>
+
+        <div>
+        <label for="number">Phone Number</label>
+        <input type="tel" id="number" name="number" value="123-456-7890" readonly>
+        </div>
+
+        <div>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" autocomplete="off" required>
+        </div>
+    </fieldset>
+</body>
+</html>
